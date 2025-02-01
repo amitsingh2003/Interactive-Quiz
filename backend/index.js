@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:5173'
+  origin: ['http://localhost:5173', "https://interactive-quiz-1.onrender.com/"]
 }));
 
 app.get('/api/quiz', async (req, res) => {
