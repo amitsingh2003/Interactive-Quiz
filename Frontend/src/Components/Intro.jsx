@@ -1,12 +1,9 @@
 import React from "react";
 import {
   Clock,
-  Award,
-  Brain,
   BookOpen,
   Target,
   Trophy,
-  Sparkles,
   ChevronRight,
   Timer,
   Star,
@@ -15,7 +12,6 @@ import {
   Info,
   CheckCircle,
   Users,
-  Medal,
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -23,7 +19,7 @@ const QuizIntro = ({ quizData = {}, onStart = () => {} }) => {
   const navigate = useNavigate();
   const {
     title = "Interactive Quiz",
-    duration = 30,
+    duration = 10,
     questions_count = 10,
     correct_answer_marks = 4,
     negative_marks = 1,
