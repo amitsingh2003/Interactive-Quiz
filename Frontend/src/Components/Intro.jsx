@@ -19,7 +19,7 @@ const QuizIntro = ({ quizData = {}, onStart = () => {} }) => {
   const navigate = useNavigate();
   const {
     title = "Interactive Quiz",
-    duration = 10,
+    duration = 15,
     questions_count = 10,
     correct_answer_marks = 4,
     negative_marks = 1,
@@ -73,7 +73,7 @@ const QuizIntro = ({ quizData = {}, onStart = () => {} }) => {
             {
               icon: <Clock className="w-6 h-6 text-pink-500" />,
               label: "Duration",
-              value: `${duration} Minutes`,
+              value: `${duration} Seconds / question`,
               bg: "pink",
             },
             {
