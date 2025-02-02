@@ -147,5 +147,13 @@ The application is fully responsive and optimized for:
 <img width="782" alt="image" src="https://github.com/user-attachments/assets/1f69264b-82d2-4676-a3a1-87862d80a014" />
 
 
+## DEMO VIDEO
+
+
+https://github.com/user-attachments/assets/b887c998-1849-40c8-adb2-1f1e667415d3
+
+
+
+
 
 
