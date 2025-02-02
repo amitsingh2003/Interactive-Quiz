@@ -135,4 +135,13 @@ The application is fully responsive and optimized for:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+## SS of UI
+
+<img width="610" alt="image" src="https://github.com/user-attachments/assets/b1f6836a-069f-49da-ac45-9b70a98cf177" />
+<img width="949" alt="image" src="https://github.com/user-attachments/assets/ccf7e7cf-3266-40da-9373-e45b240745b5" />
+<img width="865" alt="image" src="https://github.com/user-attachments/assets/fbd3fcf4-054b-4ba4-a03e-2aafaf13ec7c" />
+<img width="782" alt="image" src="https://github.com/user-attachments/assets/1f69264b-82d2-4676-a3a1-87862d80a014" />
+
+
+
 
