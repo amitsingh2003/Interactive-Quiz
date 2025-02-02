@@ -2,6 +2,9 @@
 
 An engaging web-based quiz application with gamification features, built using React and Express. Test your knowledge while having fun with real-time feedback, achievements, and performance tracking!
 
+# LIVE LINK-
+https://interactive-quiz-1.onrender.com/
+
 
 ## ✨ Features
 
@@ -70,7 +73,7 @@ An engaging web-based quiz application with gamification features, built using R
 4. **Start the application**
    ```bash
    # Start backend (from backend directory)
-   npm run start
+   node index.js
 
    # Start frontend (from frontend directory)
    npm run dev
@@ -135,10 +138,11 @@ The application is fully responsive and optimized for:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## SS of UI
+## Screenshots of UI
 
-<img width="610" alt="image" src="https://github.com/user-attachments/assets/b1f6836a-069f-49da-ac45-9b70a98cf177" />
+<img width="556" alt="image" src="https://github.com/user-attachments/assets/d56b1a4e-07f3-4e77-a934-0ea920185f93" />
 <img width="949" alt="image" src="https://github.com/user-attachments/assets/ccf7e7cf-3266-40da-9373-e45b240745b5" />
+<img width="761" alt="image" src="https://github.com/user-attachments/assets/3a1f1db5-5f07-4340-acb7-181e6702a9f5" />
 <img width="865" alt="image" src="https://github.com/user-attachments/assets/fbd3fcf4-054b-4ba4-a03e-2aafaf13ec7c" />
 <img width="782" alt="image" src="https://github.com/user-attachments/assets/1f69264b-82d2-4676-a3a1-87862d80a014" />
 
