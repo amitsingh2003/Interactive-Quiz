@@ -173,9 +173,9 @@ const QuizIntro = ({ quizData = {}, onStart = () => {} }) => {
         {/* Enhanced Start Button */}
         <button
           onClick={() => navigate("/QuizSection")}
-          className="w-full bg-gradient-to-r from-pink-500 via-purple-500 to-violet-500 text-white py-5 rounded-xl hover:from-pink-600 hover:to-purple-600 transition-all duration-300 transform hover:scale-[1.02] focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-slate-900 flex items-center justify-center space-x-2 font-medium relative overflow-hidden group"
+          className="w-full bg-gradient-to-r from-pink-500 via-purple-500 to-violet-500 text-white cursor-pointer py-5 rounded-xl hover:from-pink-600 hover:to-purple-600 transition-all duration-300 transform hover:scale-[1.02] focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-slate-900 flex items-center justify-center space-x-2 font-medium relative overflow-hidden group"
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-1000" />
+          <div className="absolute inset-0 bg-gradient-to-r  from-transparent via-white/10 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-1000" />
           <span className="text-xl font-extrabold">Start Quiz</span>
           <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
         </button>
