@@ -68,6 +68,7 @@ const QuizSection = () => {
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [incorrectAnswers, setIncorrectAnswers] = useState(0);
   const [showSidePanels, setShowSidePanels] = useState(true);
+  
 
   useEffect(() => {
     const fetchQuizData = async () => {
@@ -103,7 +104,7 @@ const QuizSection = () => {
   }, [questionTimer, isAnswerRevealed]);
 
   const handleTimeUp = () => {
-    setIncorrectAnswers((prev) => prev + 1);
+   
     setStreak(0);
     setScore((prev) => prev - 1);
     goToNextQuestion();
