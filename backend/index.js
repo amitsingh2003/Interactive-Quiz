@@ -1,6 +1,9 @@
 import express from 'express';
 import cors from 'cors';
-import quizData from './quizdata.json' assert { type: 'json' }; // Import the JSON file
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
+const quizData = require('./quizdata.json');
 
 const app = express();
 
@@ -10,7 +13,7 @@ app.use(cors({
 
 app.get('/api/quiz', (req, res) => {
   try {
-    // Send the local quiz data directly
+   
     res.json(quizData);
   } catch (error) {
     res.status(500).json({ error: 'Failed to serve quiz data' });
