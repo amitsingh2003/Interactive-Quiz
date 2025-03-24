@@ -1,22 +1,19 @@
 import express from 'express';
 import cors from 'cors';
-import axios from 'axios';
+import quizData from './quizdata.json' assert { type: 'json' }; // Import the JSON file
 
 const app = express();
+
 app.use(cors({
   origin: ['http://localhost:5173', "https://interactive-quiz-1.onrender.com"]
 }));
 
-app.get('/api/quiz', async (req, res) => {
+app.get('/api/quiz', (req, res) => {
   try {
-    const response = await axios.get('https://api.jsonserve.com/Uw5CrX', {
-      headers: {
-        'Accept': '*/*',
-      }
-    });
-    res.json(response.data);
+    // Send the local quiz data directly
+    res.json(quizData);
   } catch (error) {
-    res.status(500).json({ error: 'Failed to fetch quiz data' });
+    res.status(500).json({ error: 'Failed to serve quiz data' });
   }
 });
 
