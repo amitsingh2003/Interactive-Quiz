@@ -11,6 +11,11 @@ app.use(cors({
   origin: ['http://localhost:5173', "https://interactive-quiz-1.onrender.com"]
 }));
 
+
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'ok', message: 'Server is healthy' });
+});
+
 app.get('/api/quiz', (req, res) => {
   try {
    
